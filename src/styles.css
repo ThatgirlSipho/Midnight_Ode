@@ -10,7 +10,49 @@
 }
 
 body{
-    font-family: "Roboto", sans-serif;
-    font-size:12px;
-    color: var(--body-text-color);
+    font-family: "Roboto", sans-serif !important;
+    font-size:12px !important;
+    color: var(--body-text-color) !important;
+}
+
+.site-logo{
+    padding: 5px 20px !important;
+    border-radius: 20px !important;
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important;
+    text-decoration: none !important;
+}
+
+.nav-link{
+    color: var(--primary-color) !important;
+}
+.shadow-effect{
+    border:none !important;
+    box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.1) !important;
+}
+.bg-theme{
+    background-color: var(--primary-color) !important;
+}
+
+input[type=text], [type=email]{
+    height: 60px !important;
+    padding-left: 20px !important;
+    font-size: 13px !important;
+    width: 100% !important
+}
+.btn-theme{
+
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+.bg-secondary-theme{
+    background-color: var(--secondary-color) !important;
+   
+}
+.text-theme-primary{
+    color: var(--primary-color) !important;
+}
+
+.sub-text{
+    width: 500px !important;
 }
