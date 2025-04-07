@@ -1,19 +1,11 @@
 <nav class=" navbar navbar-expand-lg fixed-top">
     <div class="container">
         <div class="collapse navbar-collapse justify-content-center">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" *ngFor="let cat of catArray">
                 <li class="nav-item ml-3">
-                    <a href="" class="nav-link"> Interior Design</a>
+                    <a href="" class="nav-link" [routerLink]="['/category',cat.category,cat.id]" routerLinkActive="router-link-active" > {{cat.category}}</a>
                 </li>
-                <li class="nav-item ml-3">
-                    <a href="" class="nav-link">Inspiration</a>
-                </li>
-                <li class="nav-item ml-3">
-                    <a href="" class="nav-link">Recipes</a>
-                </li>
-                <li class="nav-item ml-3">
-                    <a href="" class="nav-link">Politics</a>
-                </li>
+                
             </ul>
         </div>
     </div>
